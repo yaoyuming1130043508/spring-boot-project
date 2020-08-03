@@ -1,0 +1,21 @@
+2020-08-03 15:15:12.318 [main] INFO  spring.boot.work.TestSpringApplication Line:?   - Starting TestSpringApplication on DESKTOP-Q4D9J2F with PID 11800 (D:\Project\spring-boot-project\spring-boot-work\target\classes started by admin in D:\Project\spring-boot-project)
+2020-08-03 15:15:12.356 [main] INFO  spring.boot.work.TestSpringApplication Line:?   - The following profiles are active: druid
+2020-08-03 15:15:12.756 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner Line:?   - No MyBatis mapper was found in '[spring.boot.work.controller, spring.boot.work]' package. Please check your configuration.
+2020-08-03 15:15:12.834 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner Line:?   - No MyBatis mapper was found in '[spring.boot.work.controller, spring.boot.work]' package. Please check your configuration.
+2020-08-03 15:15:13.138 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:?   - Tomcat initialized with port(s): 8080 (http)
+2020-08-03 15:15:13.146 [main] INFO  org.apache.coyote.http11.Http11NioProtocol Line:?   - Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-03 15:15:13.146 [main] INFO  org.apache.catalina.core.StandardService Line:?   - Starting service [Tomcat]
+2020-08-03 15:15:13.147 [main] INFO  org.apache.catalina.core.StandardEngine Line:?   - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-03 15:15:13.238 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:?   - Initializing Spring embedded WebApplicationContext
+2020-08-03 15:15:13.238 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Line:?   - Root WebApplicationContext: initialization completed in 847 ms
+2020-08-03 15:15:13.427 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:?   - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-03 15:15:13.540 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Line:?   - Init DruidDataSource
+2020-08-03 15:15:13.846 [main] INFO  com.alibaba.druid.pool.DruidDataSource Line:?   - {dataSource-1} inited
+2020-08-03 15:15:14.111 [main] INFO  org.apache.coyote.http11.Http11NioProtocol Line:?   - Starting ProtocolHandler ["http-nio-8080"]
+2020-08-03 15:15:14.128 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:?   - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-03 15:15:14.130 [main] INFO  spring.boot.work.TestSpringApplication Line:?   - Started TestSpringApplication in 2.311 seconds (JVM running for 4.967)
+2020-08-03 15:15:29.612 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:?   - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-03 15:15:29.612 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet Line:?   - Initializing Servlet 'dispatcherServlet'
+2020-08-03 15:15:29.615 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet Line:?   - Completed initialization in 3 ms
+2020-08-03 15:15:29.630 [http-nio-8080-exec-1] INFO  spring.boot.work.controller.TestLoggingController Line:?   - 这是登录的日志
+2020-08-03 15:15:29.630 [http-nio-8080-exec-1] WARN  spring.boot.work.controller.TestLoggingController Line:?   - 警告的日志

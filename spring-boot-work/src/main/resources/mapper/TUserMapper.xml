@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="spring.boot.work.mapper.TUserMapper">
+  <resultMap id="BaseResultMap" type="spring.boot.work.domain.entity.TUser">
+    <!--@mbg.generated-->
+    <!--@Table t_user-->
+    <id column="t_id" jdbcType="INTEGER" property="tId" />
+    <result column="t_uname" jdbcType="VARCHAR" property="tUname" />
+    <result column="t_name" jdbcType="VARCHAR" property="tName" />
+    <result column="t_upassword" jdbcType="VARCHAR" property="tUpassword" />
+    <result column="t_password" jdbcType="VARCHAR" property="tPassword" />
+    <result column="t_coding" jdbcType="VARCHAR" property="tCoding" />
+    <result column="t_sex" jdbcType="VARCHAR" property="tSex" />
+    <result column="t_phone" jdbcType="VARCHAR" property="tPhone" />
+    <result column="t_email" jdbcType="VARCHAR" property="tEmail" />
+    <result column="t_address" jdbcType="VARCHAR" property="tAddress" />
+    <result column="t_birthday" jdbcType="TIMESTAMP" property="tBirthday" />
+    <result column="t_card" jdbcType="VARCHAR" property="tCard" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="is_del" jdbcType="INTEGER" property="isDel" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    t_id, t_uname, t_name, t_upassword, t_password, t_coding, t_sex, t_phone, t_email, 
+    t_address, t_birthday, t_card, create_time, is_del
+  </sql>
+</mapper>
